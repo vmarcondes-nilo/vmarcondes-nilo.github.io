@@ -23,6 +23,7 @@ body {
 .header-links {
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 .header-icons {
@@ -38,6 +39,8 @@ body {
     padding: 5px 10px;
     border-radius: 2px;
     transition: background-color 0.2s;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .header-link:hover {
