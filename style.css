@@ -230,10 +230,11 @@ body {
 
 .images-text {
     color: #4285f4;
-    font-size: 60px;
-    font-weight: 300;
-    margin: 0;
-    line-height: 1;
+    font: 16px / 16px Arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    white-space: nowrap;
 }
 
 /* Advanced Search specific styles */
